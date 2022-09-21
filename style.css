@@ -34,7 +34,7 @@ a.logo {
   text-decoration: none;
 }
 
-a.button {
+button.logo {
   border: 2px solid;
   border-radius: .35rem;
   padding: .25rem;
@@ -42,7 +42,7 @@ a.button {
   color: CanvasText
 }
 
-a.button:hover {
+button.logo:hover {
   color: orangered;
 }
 
