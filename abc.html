@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pun Intended: get a name!</title>
+<title>Pun Intended: get a name!</title>
 
-    <meta charset="UTF-8">
-    <meta name="description" content="Get a random name with a play on words">
-    <meta name="author" content="Lucien BILL">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Get a random name with a play on words">
+<meta name="author" content="Lucien BILL">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
-    <link rel="icon" href="favicon.png" type="image/ico">
-    <link rel="manifest" href="src/site.webmanifest" />
+<link rel="icon" href="favicon.png" type="image/ico">
+<link rel="manifest" href="src/site.webmanifest" />
 </head>
-
 <body>
 
-    <header>
-        <h1>Random name with a pun</h1>
-    </header>
-    <main>
-        <div id="action" aria-label="form to select a random name with a pun (from a fixed list embedded in this app)">
-            <label>Name with a pun:</label>
-            <input disabled id="fname" name="fname" title="Name with a pun, chosen at random from a list" style="width: 100%;"></input>
-            <button type="button" id="copyToClipboard" onclick="copyToClipboard()" title="copy the name to your clipboard">📄</button>
-            <button type="button" id="chooseName" onclick="printARandomName()" title="Get another name">🎲</button>
-            <label title="allow inappropriate names to be selected">allow NSFW : 
-                <input type="checkbox" id="allowNSFW" value="nsfw" >
-            </label>
-        </div>
-        <details aria-labelledby="summary">
-            <summary>About</summary>
-            <h2>"NSFW ?"</h2>
-            <p>"Not safe for work" - The checkbox enables NSFW names.
-                Don't use it for work!
-            </p>
-            <h2>What's this website?</h2>
-            <p>This website spits out a random element from a list of names with plays on words.
-            <br>Visit the <a href="https://github.com/lucienbill/getanamewithapun">GitHub repo</a> to learn more.
-            </p>
-        </details>
-    </main>
-    <footer>
-        <p>
-            <small>Created by <a href="/">Ferry Ayunda</a> - Style : <a href="https://simplecss.org">Simple.css</a>
+<header>
+<h1>Random name with a pun</h1>
+</header>
+    
+<main>
+<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p> 
+<p>Silahkan unggah gambar, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p>
+
+<p>
+<div class="file-cont">
+<label for="image_input" class="label-file">Select File</label>
+<input class="input-file" type="file" name="image_input" id="image_input" multiple>
+</div>
+</p>
+
+<p><button type="button" id="copyToClipboard" onclick="copyToClipboard()" title="copy the name to your clipboard">📄</button></p>
+            
+<details aria-labelledby="summary">
+<summary>About</summary>
+<h2>"NSFW ?"</h2>
+<p>"Not safe for work" - The checkbox enables NSFW names.Don't use it for work!</p>
+</details>
+</main>
+    
+<footer>
+<p>
+<small>Created by <a href="/">Ferry Ayunda</a> - Style : <a href="https://simplecss.org">Simple.css</a>
  - <a href="https://counter.dev/dashboard.html?user=BillyTheTroll&token=8_MpwBhCIS8zWc0R" title="Analytics of my websites">📊</a>
-            </small>
-        </p>
-    </footer>
+</small>
+</p>
+</footer>
 
 </body>
-
 </html>
