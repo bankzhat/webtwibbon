@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font: 17px/1.5 system-ui, sans-serif;
+  margin: 10vh;
+  background: Canvas;
+}
+
+.container {
+  max-width: 66ch;
+}
+
+a,
+a:visited {
+  color: CanvasText
+}
+
+a:hover {
+  color: orangered;
+}
+
+a.logo {
+  border: 2px solid;
+  border-radius: .35rem;
+  padding: .25rem;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 2px solid;
+  padding: .5rem 1rem;
+  margin: 2rem 0
+}
+
+code {
+  color: orangered;
+  font-family: ui-monospace, monospace;
+}
+
+pre {
+  background: #f0e8e0;
+  border-radius: .3rem;
+  margin: .5rem 0;
+  padding: .5rem;
+  overflow: auto
+}
+
+pre>code {
+  background: none;
+  border: none;
+  padding: 0
+}
+
+ul li, ol li {
+  margin-top: 0.5rem;
+}
+
+:not(pre)>code {
+  background: #f0e8e0;
+  padding: .1rem .25rem;
+  border-radius: .25rem;
+}
+
+.title {
+  margin-bottom: 4rem
+}
+
+.title:hover .g {
+  visibility: visible;
+}
+
+.entrylist {
+  list-style-type: none;
+  padding-left: 0;
+  color: GrayText
+}
+
+.entrylist li:not(:last-child) {
+  margin-bottom: .5rem
+}
+
+.g {
+  visibility: hidden;
+  color: GrayText
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 1rem
+  }
+}
+
+.file-cont {
+  background: #EFF3F7;
+  position: relative;
+  height: 45px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.file-cont .label-file {
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 0px;
+  background: #dd394c;
+  height: 45px;
+  padding: 0 16px;
+  border-right: 19px solid #EFF3F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.file-cont .label-file:hover {
+  background: #a0232f;
+}
+.file-cont .input-file {
+  width: 100%;
+  outline: none;
+}
