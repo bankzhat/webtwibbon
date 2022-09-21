@@ -1,3 +1,5 @@
+// Add CSS
+
 * {
   box-sizing: border-box;
 }
@@ -32,7 +34,7 @@ a.logo {
   text-decoration: none;
 }
 
-img {
+img,canvas {
   max-width: 100%;
 }
 
