@@ -31,8 +31,11 @@
 </div>
 </p>
 
-<p><button type="button" id="copyToClipboard" onclick="copyToClipboard()" title="copy the name to your clipboard">📄</button></p>
-            
+</p><canvas id="canvas"></canvas></p>
+
+<p><button type="button" onclick="generate()">SUBMIT</button></p>
+<p><button type="button" onclick="download()" id="download" disabled>UNDUH</button></p>
+           
 <details aria-labelledby="summary">
 <summary>About</summary>
 <h2>"NSFW ?"</h2>
@@ -48,5 +51,6 @@
 </p>
 </footer>
 
+<script src="app.js"></script>
 </body>
 </html>
