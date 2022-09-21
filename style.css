@@ -89,7 +89,7 @@ details{background-color:var(--bg_acc);padding: 12px;}
 article p {text-align: justify; text-justify: inter-word;}
 }
 
-#buttons{width: 80vw;margin: auto;text-align: center;}
+#buttons{width: 50vw;margin: auto;}
 
 .button{border: none;color: white;padding: 13px 50px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 50px 20px;transition-duration: 0.4s;cursor: pointer;border-radius: 5%;}
 
